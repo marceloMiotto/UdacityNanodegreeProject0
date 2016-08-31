@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="udacitynanodegree.com.myappportfolio.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/layout_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/title_margin_botton"
+            android:text="@string/portfolio_title"
+            android:textAlignment="center"
+            android:textSize="@dimen/title_text_size"
+
+            />
+
+        <Button
+            android:id="@+id/button_popular_movies_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_margin_botton"
+            android:text="@string/popular_movies_project"
+            android:onClick="getPortfolioApp"
+            style="@style/ButtonStyleCustom"
+            />
+
+        <Button
+            android:id="@+id/button_stock_hawk_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_margin_botton"
+            android:text="@string/stock_hawk_project"
+            android:onClick="getPortfolioApp"
+            style="@style/ButtonStyleCustom"
+            />
+
+        <Button
+            android:id="@+id/button_build_it_bigger_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_margin_botton"
+            android:text="@string/build_it_bigger_project"
+            android:onClick="getPortfolioApp"
+            style="@style/ButtonStyleCustom"
+            />
+
+        <Button
+            android:id="@+id/button_make_app_material_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_margin_botton"
+            android:text="@string/make_app_material_project"
+            android:onClick="getPortfolioApp"
+            style="@style/ButtonStyleCustom"
+            />
+
+        <Button
+            android:id="@+id/button_go_ubiquitous_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_margin_botton"
+            android:text="@string/go_ubiquitous_project"
+            android:onClick="getPortfolioApp"
+            style="@style/ButtonStyleCustom"
+            />
+
+        <Button
+            android:id="@+id/button_capstone_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_margin_botton"
+            android:text="@string/capstone_project"
+            android:onClick="getPortfolioApp"
+            style="@style/ButtonStyleCustom"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
